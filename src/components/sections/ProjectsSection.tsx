@@ -2,7 +2,7 @@ import { useRef, useCallback } from 'react';
 import { gsap } from 'gsap';
 import { ArrowUpRight } from 'lucide-react';
 import projectThumb1 from '@/assets/udaan.png';
-import projectThumb2 from '@/assets/project-thumb-2.jpg';
+import projectThumb2 from '@/assets/property.png';
 import projectThumb3 from '@/assets/project-thumb-3.jpg';
 import projectThumb4 from '@/assets/project-thumb-4.jpg';
 
@@ -15,14 +15,14 @@ const projects = [
     date: "2025-02",
     link: "https://udaan-rho.vercel.app/", // replace with live website link
   },
-  {
-    title: "Synthwave Studio",
-    description: "Interactive music production tool with spatial audio rendering, waveform analysis, and real-time collaboration features.",
-    tags: ["Web Audio", "Canvas", "GSAP"],
-    image: projectThumb2,
-    date: "2023-06",
-    link: "#",
-  },
+ {
+  title: "PropSync365",
+  description: "A scalable real estate management system enabling users to explore, buy, and rent properties with advanced search filters and real-time listings. Built with a secure backend, admin control panel, and interactive chatbot for enhanced user engagement.",
+  tags: ["PHP", "MySQL", "JavaScript", "AJAX", "GSAP"],
+  image: projectThumb2,
+  date: "2025-01",
+  link: "#",
+},
   {
     title: "Orbital Commerce",
     description: "High-performance e-commerce platform with 3D product configurator and augmented reality preview capabilities.",
