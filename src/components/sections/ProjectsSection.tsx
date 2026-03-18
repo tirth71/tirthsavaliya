@@ -1,19 +1,19 @@
 import { useRef, useCallback } from 'react';
 import { gsap } from 'gsap';
 import { ArrowUpRight } from 'lucide-react';
-import projectThumb1 from '@/assets/project-thumb-1.jpg';
+import projectThumb1 from '@/assets/udaan.png';
 import projectThumb2 from '@/assets/project-thumb-2.jpg';
 import projectThumb3 from '@/assets/project-thumb-3.jpg';
 import projectThumb4 from '@/assets/project-thumb-4.jpg';
 
 const projects = [
   {
-    title: "Nebula Dashboard",
-    description: "Real-time data visualization platform with WebGL-powered charts and 3D network graphs. Used by thousands of data analysts worldwide.",
-    tags: ["Three.js", "React", "D3"],
-    image: projectThumb1,
-    date: "2024-01",
-    link: "#",
+    title: "Udaan International",
+    description: "A modern business website developed for Udaan International to showcase products, services, and global presence. Features responsive design, smooth animations, and optimized performance for better user engagement.",
+    tags: ["HTML", "CSS", "JavaScript", "GSAP","Vite","react"],
+    image: projectThumb1  , // replace with your actual image variable
+    date: "2025-02",
+    link: "https://udaan-rho.vercel.app/", // replace with live website link
   },
   {
     title: "Synthwave Studio",
